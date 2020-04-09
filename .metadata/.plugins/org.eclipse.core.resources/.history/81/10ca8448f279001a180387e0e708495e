@@ -1,0 +1,24 @@
+package br.com.erudio.math;
+
+public class SimpleMath {
+
+	public Double sum(double numberOne, double numberTwo) {
+		Double result = numberOne + numberTwo; 
+		return result;
+	}
+	
+	public Double subtraction(double numberOne, double numberTwo) {
+		Double result = numberOne + numberTwo; 
+		return result;
+	}
+	
+	public Double multiplication(double numberOne, double numberTwo) {
+		Double result = numberOne + numberTwo; 
+		return result;
+	}
+	
+	public Double sum(double numberOne, double numberTwo) {
+		Double result = numberOne + numberTwo; 
+		return result;
+	}
+}
