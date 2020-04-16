@@ -1,18 +1,20 @@
 package br.com.erudio.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.erudio.exception.UnsuportedMathOperationException;
-import br.com.erudio.math.SimpleMath;
+import br.com.erudio.mathService.SimpleMathServices;
 import br.com.erudio.request.converters.NumberConverter;
 
 @RestController
 public class MathController {
 	
-	private SimpleMath math = new SimpleMath();
+	@Autowired
+	private SimpleMathServices math;
 	
 	
 	//Especificando o método get com path variable para obrigar vir com valor
