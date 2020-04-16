@@ -1,9 +1,0 @@
-package br.com.erudio.math;
-
-public class SimpleMath {
-
-	public Double sum(double numberOne, double numberTwo) {
-		Double result = numberOne + numberTwo; 
-		return result;
-	}
-}
