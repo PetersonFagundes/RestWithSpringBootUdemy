@@ -2,15 +2,38 @@ package br.com.erudio.model;
 
 import java.io.Serializable;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
 //Construindo Entidade Person
+@Entity
+//Definindo nome da tabela no banco
+@Table(name = "person")
 public class Person implements Serializable{
 
 	private static final long serialVersionUID = 1L;
 
+	//Definindo colunas do bnaco de dados
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
+	
+	//Definindo coluna e colocando o campo como NÃO nulo
+	@Column(name = "first_name", nullable = false, length = 80)
 	private String firstName;
+	
+	@Column(name = "last_name", nullable = false, length = 80)
 	private String lastName;
+	
+	@Column(nullable = false, length = 100)
 	private String address;
+	
+	//Definindo coluna e tamanho do campo
+	@Column(nullable = false, length = 6)
 	private String gender;
 	
 	public Person(){

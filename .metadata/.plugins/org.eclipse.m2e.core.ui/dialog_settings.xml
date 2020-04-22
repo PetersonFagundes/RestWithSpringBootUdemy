@@ -2,8 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
-			<item value="D:\Development\JavaRest\RestWithSpringBootUdemy\03 RestWithSpringBootUdemy Injetando REST"/>
+			<item value="D:\Development\JavaRest\RestWithSpringBootUdemy\04 RestWithSpringBootUdemy Adicionando Persistencia"/>
 			<item value="D:\Development\JavaRest\RestWithSpringBootUdemy\02 RestWithSpringBootUdemy Scaffold Calculadora"/>
+			<item value="D:\Development\JavaRest\RestWithSpringBootUdemy\03 RestWithSpringBootUdemy Injetando REST"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -13,5 +14,9 @@
 			<item value="[groupId].[artifactId]-[version]"/>
 			<item value="[name]"/>
 		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 </section>
