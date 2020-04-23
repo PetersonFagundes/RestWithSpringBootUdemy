@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\Development\JavaRest\RestWithSpringBootUdemy\06 RestWithSpringBootUdemy Adicionando Versionamento API"/>
 			<item value="D:\Development\JavaRest\RestWithSpringBootUdemy\05 RestWithSpringBootUdemy Adicionando Design Pattern Value Object"/>
 			<item value="D:\Development\JavaRest\RestWithSpringBootUdemy\04 RestWithSpringBootUdemy Adicionando Persistencia"/>
 			<item value="D:\Development\JavaRest\RestWithSpringBootUdemy\02 RestWithSpringBootUdemy Scaffold Calculadora"/>
