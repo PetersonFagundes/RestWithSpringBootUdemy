@@ -3422,3 +3422,11 @@ org.eclipse.core.runtime.CoreException: Launch configuration Startup (5) referen
 	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
 	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:82) [org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.500.v20190620-1426.jar:na]
+2020-04-27 19:41:17,873 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-04-27 19:41:55,503 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.erudio:rest-with-springboot-udemy:0.0.1-SNAPSHOT @ D:\Development\JavaRest\RestWithSpringBootUdemy\08 RestWithSpringBootUdemy Customizando JSON\pom.xml.
+2020-04-27 19:41:57,710 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /08 RestWithSpringBootUdemy Customizando JSON/src/main/java
+2020-04-27 19:41:57,712 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /08 RestWithSpringBootUdemy Customizando JSON/src/main/resources
+2020-04-27 19:41:57,714 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /08 RestWithSpringBootUdemy Customizando JSON/src/main/resources
+2020-04-27 19:41:57,716 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /08 RestWithSpringBootUdemy Customizando JSON/src/test/java
+2020-04-27 19:41:57,716 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /08 RestWithSpringBootUdemy Customizando JSON/src/test/resources
+2020-04-27 19:41:57,983 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
